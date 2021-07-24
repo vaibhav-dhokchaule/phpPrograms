@@ -1,0 +1,9 @@
+<?php
+$dir=$_POST['d'];
+$dh=opendir($dir);
+while($file=readdir($dh))
+{
+echo"$file<br>";
+}
+closedir($dh);
+?>

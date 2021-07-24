@@ -1,0 +1,11 @@
+<?php
+$a=array(1,2,3);
+$b=array(4,5,6);
+$c=array($a,$b);
+print_r($c[1][1]);
+echo"<br>";
+print_r($c);
+echo"<br>";
+unset($c[1][1]);
+print_r($c);
+?>

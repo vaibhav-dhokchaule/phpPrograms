@@ -1,0 +1,13 @@
+<?php
+$a=array(1,2);
+$b=array(3,4);
+$c=array($a,$b);
+for($i=0;$i<2;$i++)
+{
+for($j=0;$j<2;$j++)
+{
+printf("%d\t",$c[$i][$j]);
+}
+echo"<br>";
+}   
+?>
